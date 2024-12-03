@@ -17,15 +17,15 @@
             </div>
             <div class="carousel-inner rounded rounded-5">
                 <div class="carousel-item active">
-                    <img src="https://i.pinimg.com/736x/56/d6/df/56d6df45ae3b12b895e11cea27f98d62.jpg" class="d-block w-100"
+                    <img src="{{ asset('assets/img/icon/banner1.jpg') }}" class="d-block w-100"
                         alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://i.pinimg.com/736x/61/bd/06/61bd063ab469c8234e0510991582a335.jpg" class="d-block w-100"
+                    <img src="{{ asset('assets/img/icon/banner2.jpg') }}" class="d-block w-100"
                         alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://i.pinimg.com/736x/01/65/ef/0165ef5c3f68f12b0cb35719bc69df62.jpg" class="d-block w-100"
+                    <img src="{{ asset('assets/img/icon/banner3.jpg') }}" class="d-block w-100"
                         alt="...">
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <h3 class="fw-bold py-5 pb-4">Our Apps &gt;</h3>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="#">
+                <a href="{{ route('app.qr') }}">
                     <div class="w-100  rounded rounded-5 overflow-hidden gd">
                         <img class="w-100 image-our-app"
                             src="https://i.pinimg.com/736x/e0/f0/d3/e0f0d3197ab23d8f01019591d1971d8a.jpg" alt="">
