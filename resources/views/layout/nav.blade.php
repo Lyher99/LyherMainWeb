@@ -18,7 +18,7 @@
                   <a class="nav-link active fw-bold" href="#">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#">Search</a>
+                  <a class="nav-link fw-bold" href="{{ route('dc.index') }}">Search</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link fw-bold" href="#">Message</a>
