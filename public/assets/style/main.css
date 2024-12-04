@@ -10,10 +10,16 @@
 }
 body {
     padding-top: 70px; /* Adjust based on your navbar height */
+    /* min-height: 100vh;
+     */
+     height: 100%;
 }
 nav {
     background-color: #ffffff;
 }
+
+  
+
 .navbar-brand img {
     max-height: 40px; /* Adjust logo size */
 }

@@ -45,25 +45,25 @@
 
         <div class="row ">
             <div class="col-12">
-                <h3 class="fw-bold py-5 pb-4">Our Apps &gt;</h3>
+                <h3 class="fw-bold py-5 pb-4">Our Store &gt;</h3>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="{{ route('app.qr') }}">
+                <a href="{{ route('shop.index') }}">
                     <div class="w-100  rounded rounded-5 overflow-hidden gd">
                         <img class="w-100 image-our-app"
-                            src="https://i.pinimg.com/736x/e0/f0/d3/e0f0d3197ab23d8f01019591d1971d8a.jpg" alt="">
+                            src="{{ asset('assets/img/shop/ps.jpg') }}" alt="">
                     </div>
-                    <h3 class="card-text">Create QR</h3>
+                    <h3 class="card-text">Plot Rank</h3>
                 </a>
             </div>
-            <div class="col-6 col-lg-3">
+            {{-- <div class="col-6 col-lg-3">
                 <a href="#" class="">
                     <div class="w-100  rounded rounded-5 overflow-hidden">
                         <img class="w-100 image-our-app"
                             src="https://i.pinimg.com/originals/36/1d/5c/361d5cb71a00267045aa9d5acb747f44.gif"
                             alt="">
                     </div>
-                    <h3 class="card-text">Typing</h3>
+                    <h3 class="card-text">Coming soon</h3>
                 </a>
             </div>
             <div class="col-6 col-lg-3">
@@ -72,7 +72,7 @@
                         <img class="w-100 image-our-app"
                             src="https://i.pinimg.com/736x/e0/f0/d3/e0f0d3197ab23d8f01019591d1971d8a.jpg" alt="">
                     </div>
-                    <h3 class="card-text">Create QR</h3>
+                    <h3 class="card-text">Coming soon</h3>
                 </a>
             </div>
             <div class="col-6 col-lg-3">
@@ -82,9 +82,9 @@
                             src="https://i.pinimg.com/originals/36/1d/5c/361d5cb71a00267045aa9d5acb747f44.gif"
                             alt="">
                     </div>
-                    <h3 class="card-text">Typing</h3>
+                    <h3 class="card-text">Coming soon</h3>
                 </a>
-            </div>
+            </div> --}}
         </div>
 
 

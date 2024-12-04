@@ -3,7 +3,7 @@
       <!-- Logo on the Left -->
       <a class="navbar-brand fw-bold" href="#">
           {{-- <img src="{{ asset('assets/img/icon/350kb.gif') }}" alt="Logo"> --}}
-          LYEHR SATORU
+          CHAMPA NETWORK
       </a>
 
       <!-- Toggler for Mobile -->
@@ -18,10 +18,10 @@
                   <a class="nav-link active fw-bold" href="#">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link fw-bold" href="{{ route('dc') }}">Search</a>
+                  <a class="nav-link fw-bold" href="{{ route('dc.index') }}">About us</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#">Message</a>
+                  <a class="nav-link fw-bold" href="#">Contact Us</a>
               </li>
              
           </ul>
