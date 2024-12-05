@@ -1,4 +1,4 @@
-<div class="w-100" style="background-color: #000000">
+<div class="w-100" style="background-color: #000000" id="footer">
     <div class="container py-5 footer">
         <div class="row">
             <div class="col-12 col-lg-4 px-5">
