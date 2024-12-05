@@ -49,4 +49,7 @@ Route::prefix('admin-chompa-network')->group(function () {
 Route::prefix('shop')->group(function () {
     // Route::get('/', [BuyRankController::class, 'index'])->name('dc');
     Route::resource('/', ShopController::class)->names('shop');
+    Route::get('/receipt/{receipt_uuid}', [ShopController::class, 'receipt'])->name('shop.receipt');
+    // Route::get('/receipt/{receipt_uuid}', [ReceiptController::class, 'download'])->name('receipt.download');
+
 });

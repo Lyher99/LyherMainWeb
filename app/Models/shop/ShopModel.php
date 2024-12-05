@@ -17,6 +17,7 @@ class ShopModel extends Model
         'rank',
         'description',
         'image_url',
+        'price',
     ];
 
 }

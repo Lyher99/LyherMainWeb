@@ -17,16 +17,13 @@
             </div>
             <div class="carousel-inner rounded rounded-5">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/icon/banner1.jpg') }}" class="d-block w-100"
-                        alt="...">
+                    <img src="{{ asset('assets/img/icon/banner1.jpg') }}" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/icon/banner2.jpg') }}" class="d-block w-100"
-                        alt="...">
+                    <img src="{{ asset('assets/img/icon/banner2.jpg') }}" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/icon/banner3.jpg') }}" class="d-block w-100"
-                        alt="...">
+                    <img src="{{ asset('assets/img/icon/banner3.jpg') }}" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -50,8 +47,7 @@
             <div class="col-6 col-lg-3">
                 <a href="{{ route('shop.index') }}">
                     <div class="w-100  rounded rounded-5 overflow-hidden gd">
-                        <img class="w-100 image-our-app"
-                            src="{{ asset('assets/img/shop/ps.jpg') }}" alt="">
+                        <img class="w-100 image-our-app" src="{{ asset('assets/img/shop/ps.jpg') }}" alt="">
                     </div>
                     <h3 class="card-text">Plot Rank</h3>
                 </a>
@@ -89,24 +85,29 @@
 
 
         {{-- about us  --}}
-        <h3 class="fw-bold py-4">About Me &gt;</h3>
+        <h3 class="fw-bold py-4">About Us &gt;</h3>
         <div class="row bg-light shadow rounded rounded-5 p-5 mb-5">
             <div class="col-12 col-lg-4 d-flex py-3">
                 <div class="row d-flex justify-content-center align-content-center">
                     <div class="col-4 col-lg-8">
-                        <img class="w-100 rounded rounded-5" src="{{ asset('assets/img/icon/me.jpg') }}" alt="">
+                        <img class="w-100 rounded rounded-5" src="{{ asset('assets/img/icon/logo.png') }}" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-8 py-3 d-flex justify-content-center align-content-center">
                 {{-- <h2>About Me</h2> --}}
-              <div class="">
-                <p>Hello! I'm <strong>Hong Lyher</strong>, a passionate developer from Cambodia. With a deep interest in
-                    technology and a commitment to creating impactful, user-friendly applications, I specialize in web and
-                    mobile development, backed by strong experience in full-stack development and emerging technologies.</p>
-                <a href="#"
-                    class="border border-1 border-primary rounded rounded-5 p-2 nav-link d-block  text-center">Read more</a>
-              </div>
+                <div class="">
+                    <p>Welcome to <strong> Champa Network</strong> , your ultimate destination for epic Minecraft adventures! Founded in 2024,
+                        our server is a vibrant and ever-growing community of players who share a passion for creativity,
+                        competition, and collaboration. <br>
+                        What We Offer: <br>
+                        - Plots for Creativity: Build your dream creations on your very own plot. Whether you're designing a cozy home or a sprawling castle, our plot system provides the perfect space for your imagination to run wild.
+                        <br>- PvP Battles: Engage in thrilling player-versus-player combat and test your skills against others. Fight for glory, climb the leaderboards, and show everyone what you're made of!
+                    </p>
+                    <a href="#"
+                        class="border border-1 border-primary rounded rounded-5 p-2 nav-link d-block  text-center">Read
+                        more</a>
+                </div>
             </div>
         </div>
     </div>

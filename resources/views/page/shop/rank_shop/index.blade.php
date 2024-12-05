@@ -6,6 +6,19 @@
 @section('container')
     <div class="container pb-5 px-4 p-lg-2">
         <h3 class="fw-bold py-5 pb-4">Rank Store &gt;</h3>
+        <div>
+            @if (session('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+                </div>
+            @endif
+            @if (session('error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{ session('error') }}
+                </div>
+            @endif
+            {{-- {{ session('job_id') }} --}}
+        </div>
         <div class="row rounded rounded-5 p-5 bg-light shadow">
             <div class="col-12 col-lg-6">
                 <div class="row justify-content-center">
@@ -24,7 +37,9 @@
                 </div>
             </div>
             <div class="col-12">
-                <form action="#">
+                <form class="" action="{{ route('shop.store') }}" method="POST"
+                enctype="multipart/form-data">
+                @csrf
                     <div class="form-group py-4">
                         <label for="username" class="py-2">Minecraft Username</label>
                         <input type="text" class="form-control" id="username" name="username" required>
@@ -47,11 +62,11 @@
                     </div>
                     <div class="form-group py-3">
                         <label for="price" class="py-2">Price</label>
-                        <input type="text" class="form-control" id="price" name="price" readonly required>
+                        <input type="number" class="form-control" id="price" name="price" readonly required>
                     </div>
                     <div class="form-group py-3">
                         <label for="payment" class="py-2">Payment</label>
-                        <input type="file" class="form-control" id="payment" name="payment" required>
+                        <input type="file" class="form-control" id="payment" name="payment" required accept="image/*">
                     </div>
                     <div class="w-100 d-flex justify-content-end">
                     <button type="submit" class="btn btn-primary">Buy Now</button>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
       <!-- Logo on the Left -->
-      <a class="navbar-brand fw-bold" href="#">
+      <a class="navbar-brand fw-bold" href="/">
           {{-- <img src="{{ asset('assets/img/icon/350kb.gif') }}" alt="Logo"> --}}
           CHAMPA NETWORK
       </a>

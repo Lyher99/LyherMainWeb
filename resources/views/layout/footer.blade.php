@@ -2,14 +2,14 @@
     <div class="container py-5 footer">
         <div class="row">
             <div class="col-12 col-lg-4 px-5">
-                <h5 class="text-light fw-bold">LYHER SATORU</h5>
+                <h5 class="text-light fw-bold">CHAMPA NETWORK</h5>
                 <p class="text-light">Feel free to reach out to me if you’re unsure about my level of enthusiasm to collaborate with you or if you’d like to know more about me.</p>
             </div>
             <div class="col-12 col-lg-4 px-5">
                 <h5 class="text-light fw-bold">Get In Touch</h5>
                 <ul class="text-light p-0">
                     <li>
-                        Call : +855968161618
+                        Call : ...
                     </li>
                     <li>
                         Email : ....
@@ -18,7 +18,7 @@
                         Address : Cambodia Phnom Penh
                     </li>
                     <li>
-                        Business or Advertise Telegram: @lyheryt
+                        Business or Advertise Telegram: @champanetwork
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                   
             </div>
             <div class="col-12">
-                <p class="text-light text-center">© 2024 LYHER SATORU. All Rights Reserved.</p>
+                <p class="text-light text-center">© 2024 CHAMPA NETWORK. All Rights Reserved.</p>
             </div>
         </div>
     </div>
