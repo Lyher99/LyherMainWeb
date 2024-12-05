@@ -4,7 +4,7 @@
 @section('style')
 @endsection
 @section('container')
-    <div class="container pb-5 px-1">
+    <div class="container pb-5 px-4 p-lg-2">
         <h3 class="fw-bold py-5 pb-4">Rank Store &gt;</h3>
         <div class="row rounded rounded-5 p-5 bg-light shadow">
             <div class="col-12 col-lg-6">
@@ -16,13 +16,10 @@
             </div>
             <div class="col-12 col-lg-6 py-5 d-flex justify-content-center">
                 <div class="m-auto d-block">
-                    <h4 class="" id="rank_name">Benefits of VIP Rank</h4>
+                    <h4 class="p-0" id="rank_name"></h4>
                     <p id="rank_desc">
-                        <br>Exclusive chat colors 💬
-                        <br>Access to VIP-only commands ⚡
-                        <br>Special perks on the server 🎮
-                        <br>Priority access to events 🏆
-                        <br>A cool VIP prefix in your name! ✨
+                        
+                    
                     </p>
                 </div>
             </div>
@@ -36,7 +33,7 @@
                         <label for="Platform" class="py-2">Platform</label>
                         <select name="Platform" id="Platform" class="form-control">
                             <option value="JAVA" selected>JAVA</option>
-                            <option value="BEDROCK" selected>KING</option>
+                            <option value="BEDROCK" selected>BEDROCK</option>
                         </select>
 
                     </div>
@@ -56,6 +53,18 @@
                         <label for="payment" class="py-2">Payment</label>
                         <input type="file" class="form-control" id="payment" name="payment" required>
                     </div>
+                    <div class="w-100 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Buy Now</button>
+
+                    </div>
+                    <div class="w-100 py-2">
+                        <div class="row align-content-center">
+                            <div class="col-10 col-lg-4 m-auto">
+                                <img class="w-100" src="{{ asset('assets/img/shop/qr.jpg') }}" alt="">
+
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -69,6 +78,7 @@
             var king_name = 'Benefits of KING Rank';
 
             var vpi_description = `
+            Price : <span class="text-success h3">5$</span>
             <br>Exclusive chat colors 💬
             <br>Access to VIP-only commands ⚡
             <br>Special perks on the server 🎮
@@ -76,6 +86,7 @@
             <br>A cool VIP prefix in your name! ✨
             `;
             var king_description = `
+            Price : <span class="text-success h3">15$</span>
             <br>Exclusive chat colors 💬
             <br>Access to King-only commands ⚡
             <br>Special perks on the server 🎮
